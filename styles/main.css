@@ -1,0 +1,225 @@
+* {
+	color: black;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+}
+
+#menu {
+	position: fixed;
+	background-color: black;
+	z-index: 1;
+}
+
+#home {
+	margin-top: 5%;
+}
+
+#chart1 {
+	height: 300px; 
+	width: %;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.item {
+	background-color: black;
+	font-weight: bold;
+	border: solid 3px;
+	border-color: white;
+	border-radius: 10px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+div.canvasjs-chart-toolbar {
+	display: none;
+}
+
+a.canvasjs-chart-credit {
+	display: none;
+}
+
+h2.title {
+	margin-top: 48px;
+	margin-bottom: 45px;
+}
+
+.zc-ref {
+	display:none;
+}
+
+#title {
+	margin-top: 8%;
+}
+
+#chart3 {
+	margin-bottom: 2%;
+}
+
+@media screen and (min-width: 400px) {
+
+	img#logo {
+		width: 30%;
+		margin-left: 10%;
+		margin-bottom: 1%;
+	}
+
+	img#home {
+		width: 100vw;
+	}
+
+	#eten {
+		width: 90%;
+		padding-bottom: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 5%;
+	}
+
+	#werkzaamheden {
+		width: 90%;
+		height: 600px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 5%;
+	}
+
+	#container {
+		width: 90%;
+		height: 100%;
+		margin-left: 5%;
+		margin-top: 2%;
+	}
+
+	#snelheid {
+		margin-top: 4%;
+		width: 90%;
+		margin-left: 5%;
+		height: 550px;
+		margin-bottom: 20px;
+	}
+
+	#chart2 {
+		height: 60%;
+		width: 30%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 5%;
+	}
+}
+
+@media (min-width: 800px) {
+
+	img#logo {
+		width: 25%;
+	}
+
+	img#home {
+		width: 100vw;
+	}
+
+	.container {
+		flex-flow: row wrap;
+	}
+
+	#eten {
+		width: 100%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 5%;
+	}
+
+	#werkzaamheden {
+		width: 100%;
+		height: 600px;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 5%;
+	}
+
+	#container {
+		width: 90%;
+		height: 400px;
+		margin-left: 5%;
+		margin-top: 2%;
+		margin-bottom: 1%;
+	}
+
+	#snelheid {
+		margin-top: 5%;
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	#chart2 {
+		margin-left: 23%;
+		margin-top: 8%;
+		margin-bottom: 5%;
+	}
+
+	.responsive {
+		width: 100%;
+		height: auto;
+	}
+
+	#chart3 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	img#logo {
+		width: 20%;
+	}
+
+	img#home {
+		width: 100vw;
+	}
+
+	#eten {
+		width: 42%;
+		margin-left: 5%;
+	}
+
+	#werkzaamheden {
+		width: 42%;
+		margin-left: 1%;
+		height: 300%;
+	}
+
+	#chart2 {
+		margin-top: 10%;
+		height: 300px; 		
+		margin-left: 7%;
+		margin-bottom: 10%;
+	}
+
+	#snelheid {
+		margin-top: 4%;
+	}
+
+	#chart3 {
+		width: 90%;
+		margin-left: 4%;
+	}
+}
